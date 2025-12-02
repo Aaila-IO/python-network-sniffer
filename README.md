@@ -1,9 +1,3 @@
-# ✅ I will give you a FIXED README.md
-
-Just copy paste this into GitHub → Edit → Replace everything.
-
----
-
 # 🕵️‍♀️ Python Network Sniffer
 
 A simple Python based network traffic sniffer built using Scapy.
@@ -103,15 +97,3 @@ Cybersecurity and Automation
 GitHub: [https://github.com/Aaila-IO](https://github.com/Aaila-IO)
 
 ---
-
-# ✅ After this, your README will look clean and professional.
-
-If you want, I can also:
-
-✔ improve the script
-✔ add colored output
-✔ add filters
-✔ add screenshot section
-✔ add badges like version, Python, license
-
-Just tell me **“upgrade the sniffer code and README”**.
