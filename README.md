@@ -1,119 +1,117 @@
-🕵️‍♀️ Python Network Sniffer
+# ✅ I will give you a FIXED README.md
 
-A lightweight Python packet sniffer built using Scapy, capable of capturing and analyzing live network traffic with real-time packet inspection.
+Just copy paste this into GitHub → Edit → Replace everything.
 
-📌 Overview
+---
 
-This project is a simple yet powerful network analysis tool created during my cybersecurity internship. It captures packets on a chosen network interface and extracts useful details such as protocol type, source/destination IP, timestamps, and raw payload data.
+# 🕵️‍♀️ Python Network Sniffer
 
-It works similar to basic packet monitoring utilities and helps students understand how real-time traffic analysis works at a low level.
+A simple Python based network traffic sniffer built using Scapy.
 
-✨ Features
+---
 
-📡 Live packet capture (no file needed)
+## ✨ Features
 
-🧭 Source and Destination IP extraction
+* 📡 **Live packet capture** (no file needed)
+* 🧭 **Source and Destination IP extraction**
+* 🔎 **Protocol identification** (TCP, UDP, ICMP)
+* ⏱ **Timestamp logging**
+* 📄 **Payload extraction** (Raw layer)
+* 🧾 **Optional logging to file**
+* 🌐 **Works on Linux, CentOS, and Kali machines**
 
-🔎 Protocol identification (TCP, UDP, ICMP)
+---
 
-⏱ Timestamp logging
+## 📂 Project Structure
 
-📄 Payload extraction (Raw layer)
-
-🧾 Optional logging to file
-
-🌐 Works on Linux, CentOS, and Kali machines
-
-🧱 Project Structure
+```
 python-network-sniffer/
 │
 ├── sniffer.py          # Main script for packet capture
 ├── packet_logs.txt     # Log file (optional)
 └── README.md           # Documentation
+```
 
-⚙ Requirements
+---
+
+## ⚙ Requirements
 
 Install Scapy:
 
+```bash
 pip3 install scapy
+```
 
+You must run the script with **root privileges**:
 
-You must run the script with root privileges:
-
+```bash
 sudo python3 sniffer.py
+```
 
-▶️ How It Works
+---
 
-The script uses Scapy’s sniff() function to:
+## ▶️ How It Works
 
-Listen on a network interface (ens33, wlan0, eth0, etc)
+The script uses Scapy’s `sniff()` function to:
 
-Capture each incoming/outgoing packet
+1. Capture real time packets
+2. Extract source IP
+3. Extract destination IP
+4. Identify protocol (TCP, UDP, ICMP)
+5. Extract payload
+6. Print output in readable format
+7. (Optional) Log packets to a file
 
-Extract:
+---
 
-Timestamp
+## 📥 Example Output
 
-Source IP
-
-Destination IP
-
-Transport protocol
-
-Raw payload (if available)
-
-Print details in clean readable format
-
-Optionally log packets to a file
-
-This gives beginners a practical understanding of packet anatomy and real-time traffic flow.
-
-🚀 Run the Sniffer
-
-Run the sniffer directly:
-
-python3 sniffer.py
-
-📥 Example Output
+```
 ========== PACKET ==========
 Time: 2025-12-02 18:00:53
 Source IP: 172.67.212.105
 Destination IP: 192.168.149.145
 Protocol: TCP
-Payload: b'HTTP/1.1 301 Moved Permanently\r\nDate: ...'
+Payload: b'HTTP/1.1 301 Moved Permanently...'
+```
 
-📌 Future Improvements
+---
 
-Planned enhancements:
+## 🚀 Run the Sniffer
 
-Add color-coded terminal output
+```bash
+python3 sniffer.py
+```
 
-Build an HTML dashboard for packet visualization
+---
 
-Export packets to CSV / JSON
+## 📌 Future Improvements
 
-Add filtering options (port, protocol, IP)
+* Colorful CLI output
+* Filter packets by port/protocol
+* Export packets to CSV or JSON
+* Web dashboard for packet visualization
+* GUI using PyQt5
+* Multi interface support
 
-Add multithreading
+---
 
-Build a GUI version using PyQt5
+## 🧑‍💻 Author
 
-📄 License
+**Ayelah**
+Cybersecurity and Automation
+GitHub: [https://github.com/Aaila-IO](https://github.com/Aaila-IO)
 
-MIT License. Free to use, modify, and learn from.
+---
 
-🧑‍💻 Author
+# ✅ After this, your README will look clean and professional.
 
-Aailah
-Cybersecurity & Automation
-GitHub: https://github.com/Aaila-IO
+If you want, I can also:
 
-If you want, I will also:
+✔ improve the script
+✔ add colored output
+✔ add filters
+✔ add screenshot section
+✔ add badges like version, Python, license
 
-✔ improve your sniffer code
-✔ rewrite comments inside code
-✔ add color output
-✔ add filtering (HTTP only, TCP only, DNS only etc)
-✔ make this entire project look senior-level
-
-Just say: “upgrade my sniffer code” and I’ll do it.
+Just tell me **“upgrade the sniffer code and README”**.
